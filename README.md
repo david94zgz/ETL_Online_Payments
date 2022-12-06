@@ -15,7 +15,7 @@ where:
   
 ### Run the ETL
 ```bash
-$SPARK_HOME/bin/spark-submit/balances_negative_job.py
+python3 -m jobs.balances_negative_job
 ```
 
 ### Test the ETL
