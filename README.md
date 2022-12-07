@@ -3,7 +3,7 @@ Generates two random datasets about accounts and payments. Also, extract this da
 
 Assumptions:
 - We can find payments paid and received by the same account. These are system mistakes and should be eliminated.
-- ETL should return the accounts with negative amounts in the same currency as it is stated in the balance dataset.
+- ETL should return the accounts with negative balance in the same currency as it is stated in the balance dataset.
 
 
 # Instructions
